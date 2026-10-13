@@ -54,6 +54,8 @@ app.use(cors({
     // Allow localhost/127.0.0.1 on Vite ports or configured FRONTEND_ORIGIN
     if (
       origin === FRONTEND_ORIGIN ||
+      origin.startsWith('https://law-guide-nu.vercel.app') ||
+      origin.endsWith('.vercel.app') ||
       origin.startsWith('http://localhost:') ||
       origin.startsWith('http://127.0.0.1:')
     ) {
