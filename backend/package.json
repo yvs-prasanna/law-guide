@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Backend API for Legal Case Finder AI",
+  "license": "MIT",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

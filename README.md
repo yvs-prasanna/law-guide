@@ -273,3 +273,10 @@ All protected endpoints require an `Authorization: Bearer <SUPABASE_JWT_TOKEN>` 
 | `503 Service Unavailable` | Supabase credentials missing on backend | Ensure `SUPABASE_URL` and `SUPABASE_PUBLISHABLE_KEY` are defined in `backend/.env`. |
 | Google OAuth Redirect Error | Redirect URI mismatch | Verify `http://localhost:5173` is added to Google Cloud Console and Supabase Auth Redirect URLs. |
 | Port 5000 in use on Windows | Prior process occupying port | Run `netstat -ano \| findstr :5000` followed by `taskkill /PID <PID> /F`. |
+
+---
+
+## 12. License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
